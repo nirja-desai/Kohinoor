@@ -10,7 +10,7 @@ var config = {
     byline: 'By Nirja and Sumil Desai',
 
   
-    footer: 'Source: source citations, etc.',
+    footer: 'Kohinoor the book',
     chapters: [
         {
             id: 'chapter_0',
@@ -50,7 +50,7 @@ var config = {
             onChapterExit: [
                 {
                     layer: 'delhi',
-                    opacity: 0
+                    opacity: 1
                 }
             ]
         },
