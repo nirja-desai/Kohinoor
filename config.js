@@ -26,18 +26,7 @@ var config = {
                 bearing: 0.00
 
             },
-            onChapterEnter: [
-                 {
-                    layer: 'diamond-locations',
-                     opacity: 0
-                 }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'diamond-locations',
-                    opacity: 0
-                }
-            ]
+            
         },
         {
             id: 'chapter_1',
@@ -198,7 +187,7 @@ var config = {
             location: {
               center: { lon: 77.63070, lat: 21.57702 },
                 zoom: 2.04,
-                speed: .2,
+                speed: .7,
                 pitch: 0.50,
                 bearing: 0.00
             },
@@ -231,7 +220,7 @@ var config = {
               center: { lon: -1.15272, lat: 50.85108 },
                 center: { lon: -0.26482, lat: 50.93296 },
                 zoom: 7.82,
-                speed: .2,
+                speed: .5,
                 pitch: 57.00,
                 bearing: -0.29
             },
