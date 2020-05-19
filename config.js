@@ -4,11 +4,12 @@ var config = {
     showMarkers: false,
     theme: 'light',
     alignment: 'right',
-
     title: 'The Incredible Journey of the Kohinoor',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+    //subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     image: '',
-    byline: 'By Sumil and Nirja Desai',
+    byline: 'By Nirja and Sumil Desai',
+
+  
     footer: 'Source: source citations, etc.',
     chapters: [
         {
