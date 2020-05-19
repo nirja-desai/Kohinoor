@@ -4,11 +4,12 @@ var config = {
     showMarkers: false,
     theme: 'light',
     alignment: 'right',
-
     title: 'The Incredible Journey of the Kohinoor',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+    //subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     image: '',
-    byline: 'By Sumil and Nirja Desai',
+    byline: 'By Nirja and Sumil Desai',
+
+  
     footer: 'Source: source citations, etc.',
     chapters: [
         {
@@ -41,7 +42,7 @@ var config = {
         {
             id: 'chapter_1',
             image: './path/to/image/source.png',
-            title: 'DELHI, INDIA',
+            title: 'DELHI,  INDIA',
             //image: './path/to/image/source.png',
             description: 'Now Ruz 1635 - Seven years after it was commissioned by Mughal emperor Shah Jahan, the magnificent Peacock Throne is inaugurated. The throne was studded with rubies, emeralds, pearls, diamonds and precious stones of every kind, reportedly worth Rs.10,000,000  of that time. The Kohinoor was set in one of the peacock&#39;s eyes.',
             location: {
@@ -91,7 +92,7 @@ var config = {
         },
                 {
             id: 'chapter_3',
-            title: 'Herat, Afghanistan',
+            title: 'HEART,  AFGHANISTAN',
             image: './path/to/image/source.png',
             description: 'Nader Shah&#39;s descent into madness fuelled by paranoia for the Kohinoor begins with having his own son blinded. Nader Shah suspects his son of wanting to have him assassinated. In March 1747 Nader Shah&#39;s tyranny ends when he is murdered by his own guards. The kohinoor is captured by Ahmad Khan Abdali who takes the Kohinoor to Kandahar and establishes the kingdom of Afghanistan.',
             location: {
@@ -116,7 +117,7 @@ var config = {
         },
                         {
             id: 'chapter_4',
-            title: 'Kandahar, Afghanistan',
+            title: 'KANDAHAR,  AFGHANISTAN',
             image: './path/to/image/source.png',
             description: 'Winter of 1800 - Shah Zaman (descendant of Abdali) is imprisoned and deposed, hides the Kohinoor in a crack in the wall of his prison cell',
             location: {
@@ -141,7 +142,7 @@ var config = {
         },
                         {
             id: 'chapter_5',
-            title: 'Lahore, Pakistan',
+            title: 'LAHORE,  PAKISTAN',
             image: './path/to/image/source.png',
             description: 'However Shah Shuja is unable to hold on to the throne of Afghanistan and in 1810 is forced to escape to Lahore, Punjab - the dominion of Maharaja Ranjit Singh. The Shah leaves the kohinoor with his wife Wa’fa Begum in Lahore. In June 1813, Ranjit Singh finally obtains the Kohinoor.',
             location: {
@@ -191,7 +192,7 @@ var config = {
         },
                         {
             id: 'chapter_7',
-            title: 'Enroute to London',
+            title: 'ENROUTE TO LONDON',
             image: './path/to/image/source.png',
             description: 'The Kohinoor travels via ship from Bombay to England',
             location: {
@@ -223,7 +224,7 @@ var config = {
                      
                       {
             id: 'chapter_9',
-            title: 'Portsmouth, England',
+            title: 'PORTSMOUTH,  ENGLAND',
             image: './path/to/image/source.png',
             description: 'In June 1850, between cholera onboard the ship and a hurricane that tossed it for 12 hours, a skeleton crew sails into Portsmouth harbor carrying the diamond. Meanwhile, an unnamed assailant strikes Queen Victoria with an iron rod and former PM Robert Peel is thrown from his horse and dies. The queen receives the diamond in mourning (and with a black eye)',
             location: {
@@ -247,7 +248,7 @@ var config = {
         },
                     {
             id: 'chapter_10',
-            title: 'Hyde Park, London',
+            title: 'HYDE PARK,  LONDON',
             image: './path/to/image/source.png',
             description: 'In the summer of 1851 the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for the &#39;The Great Exhibition&#39;. However the diamond appears dull and disappoints eager viewers.',
             location: {
@@ -272,7 +273,7 @@ var config = {
         },
                     {
             id: 'chapter_11',
-            title: 'Tower of London, London',
+            title: 'TOWER OF LONDON,  LONDON',
             image: './path/to/image/source.png',
             description: 'In 1852 the diamond is recut from its original 186 carats to just 105 carats and worn by Queen Victoria in her crown. The Kohinoor becomes the literal "jewel in the crown" for the British and resides in the tower of London, for now.',
             location: {
