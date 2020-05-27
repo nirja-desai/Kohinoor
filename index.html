@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	
+    <meta charset='utf-8' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-    <meta charset='utf-8' />
     <title>The Incredible Journey of the Kohinoor </title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
@@ -33,51 +34,75 @@
         }
         
 
- #section01 a span {
-      position: absolute;
-      top: 800px;
-      left: 50%;
-      width: 46px;
-      height: 46px;
-      margin-left: -23px;
-      border: 1px solid #fff;
-      border-radius: 100%;
-      box-sizing: border-box;
-    }
+      
+#header h1 {
+			margin-bottom: 2vh;
+}
 
-    #section01 a span::after {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      content: '';
-      width: 16px;
-      height: 16px;
-      margin: -12px 0 0 -8px;
-      border-left: 1px solid #fff;
-      border-bottom: 1px solid #fff;
-      -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-      box-sizing: border-box;
-    }
+#header p {
+			margin-bottom: 10vh;
 
-    #section01 a span::before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      content: '';
-      width: 44px;
-      height: 44px;
-      box-shadow: 0 0 0 0 rgba(255,255,255,.1);
-      border-radius: 100%;
-      opacity: 0;
-    }
+}
+#header h3 {
+			margin-bottom: 5vh;
 
+}
+
+#chapter h3{
+			margin-bottom: 6vh;
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+}
+
+#chapter image{
+			margin-bottom: 6vh;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 
         #header {
-            /*width: 100%;*/
-            /*height: 100vh;*/
-            padding-top: 20vh;
+            width: 100%;
+            height: 100vh;
+            padding-top: 10vh;
             padding-bottom: 7vh;
             text-align: center;
             text-height:25px;
@@ -85,8 +110,14 @@
             font-color: #0e0e0e;
             box-sizing: border-box;
             background-color: #ffffff;
-            /*border: 25px solid #B88846;
-  border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25; */
+            background-blend-mode: multiply;
+            background-image: url("images/ep_naturalwhite1.png");
+           	background-repeat: repeat;
+
+
+
+          /*  border: 25px solid #B88846;
+border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;*/
 }
 
 
@@ -95,12 +126,13 @@
         
         #footer {
             width: 100%;
-            min-height: 5vh;
+            max-height: 5vh;
             padding-top: 2vh;
-            padding-bottom: 2vh;
+            padding-bottom: 0vh;
             text-align: center;
             line-height: 25px;
             font-size: 13px;
+            display: block;
 
 
 		
@@ -134,17 +166,29 @@
             background-color: #444;
         }
 
-         .chapter_0 {
+         .chapter_2 {
             text-align: center;
         }
 
         .step {
             padding-bottom: 50vh;
-            /* margin-bottom: 10vh; */
+             margin-bottom: 10vh;
             opacity: 1;
+            text-align: left;
         }
+
+       
         .step.active {
             opacity: 1;
+            text-align: left;
+
+        }
+
+        .step image{
+        	display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
         }
 
         .step div {
@@ -217,7 +261,10 @@ features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
 var splash = document.createElement('img');
-splash.src = 'images/diamond.jpg';
+splash.src = 'images/Splash-Screen.png';
+
+var arrow = document.createElement('img');
+arrow.src = 'gif-bounce-arrow.gif';
 
 var section02 = document.createElement("link");
 section02.type = "text/css";
@@ -250,6 +297,8 @@ if (config.byline) {
     var bylineText = document.createElement('p');
     bylineText.innerText = config.byline;
     header.appendChild(bylineText);
+    header.appendChild(arrow);
+
   	//header.appendChild(section02);
   	//document.getElementsByTagName("head")[0].appendChild(scroll);
   	//header.appendChild(link);
@@ -269,6 +318,16 @@ config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
     var chapter = document.createElement('div');
     
+    if (record.image) {
+        var image = new Image();  
+        image.src = record.image;  
+        chapter.appendChild(image);
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+
     if (record.title) {
         var title = document.createElement('h3');
         title.innerText = record.title;
@@ -277,11 +336,7 @@ config.chapters.forEach((record, idx) => {
         document.write("<br>");
     }
     
-    if (record.image) {
-        var image = new Image();  
-        image.src = record.image;  
-        chapter.appendChild(image);
-    }
+
     
     if (record.description) {
         var story = document.createElement('p');
