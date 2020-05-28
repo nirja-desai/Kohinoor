@@ -4,7 +4,7 @@ var config = {
     showMarkers: false,
     theme: 'light',
     alignment: 'right',
-    title: 'Taming the Mountain of Light',
+    title: 'TAMING THE MOUNTAIN OF LIGHT',
     subtitle: 'The Incredible Journey of the Kohinoor',
     image: '',
     byline: 'By Sumil and Nirja Desai',
@@ -83,7 +83,7 @@ var config = {
         },
                 {
             id: 'chapter_3',
-            title: 'Herat, Afghanistan',
+            title: 'HERAT <span>&#44;</span> AFGHANISTAN',
             image: 'images/Jezail.png',
             description: 'Nader Shah&#39;s descent into madness fuelled by paranoia for the Kohinoor begins with having his own son blinded. Nader Shah suspects his son of wanting to have him assassinated. In March 1747 Nader Shah&#39;s tyranny ends when he is murdered by his own guards. The kohinoor is captured by Ahmad Khan Abdali who takes the Kohinoor to Kandahar and establishes the kingdom of Afghanistan.',
             location: {
@@ -108,7 +108,7 @@ var config = {
         },
                         {
             id: 'chapter_4',
-            title: 'Kandahar, Afghanistan',
+            title: 'Kandhar, Afghanistan',
             image: 'images/KohinoorPaper.png',
             description: 'Winter of 1800 - Shah Zaman (descendant of Abdali) is imprisoned and deposed amidst political upheaval. He hides the Kohinoor in a crack in the wall of his prison cell. In 1803 Shah Zaman&#39;s brother Shah Shuja comes to power and sends his men looking for the Kohinoor who find it with a mullah using it as a paperweight!',
             location: {

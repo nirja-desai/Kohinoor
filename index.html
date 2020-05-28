@@ -12,12 +12,18 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
-    <link href='style.css' rel='stylesheet' />
+    
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <script src="https://unpkg.com/scrollama"></script>
 
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 </style>
 
 
@@ -25,7 +31,7 @@
         body {
             margin:0; 
             padding:0; 
-            font-family: 'Oswald', sans-serif;
+            font-family:'PT Sans Narrow', sans-serif;
 
             
         }
@@ -40,7 +46,17 @@
             z-index: -5;
         }
         
+#hitCounter {
+			width: 100%;
+            min-height: 5vh;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            text-align: center;
+            line-height: 25px;
+            font-size: 13px;
 
+
+}
       
 #header h1 {
 			margin-bottom: 2vh;
@@ -63,54 +79,24 @@
   			width: 50%;
 }
 
-#chapter image{
-			margin-bottom: 6vh;
+
 }
 
-/*#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-*/
+#header img[src="images/Splash-Screen.png"] {
+  			/*display: block;*/
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 20%;
+  			padding-bottom:30px;
 
-/*#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
-*/
 
-/*#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-*/
-
-/*#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-*/
 
 .content {
   padding: 16px;
 }
 
-/*.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-
-.sticky + .content {
-  padding-top: 60px;
-}
-*/
 
         #header {
             width: 100%;
@@ -139,20 +125,24 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
 
         
         #footer {
-            width: 100%;
-            max-height: 5vh;
+        	width: 100%;
+            min-height: 5vh;
             padding-top: 2vh;
-            padding-bottom: 0vh;
+            padding-bottom: 2vh;
             text-align: center;
             line-height: 25px;
             font-size: 13px;
-            display: block;
-
-
-		
-
 
         }
+
+        #footer img{
+        	width: 20px;
+        	margin-right: 10px;
+        	color: gray;
+
+        }
+
+
         #features {
             padding-top: 10vh;
             padding-bottom: 10vh;
@@ -180,15 +170,14 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
             background-color: #444;
         }
 
-         .chapter_2 {
-            text-align: center;
-        }
+      
 
         .step {
             padding-bottom: 50vh;
              margin-bottom: 10vh;
             opacity: 1;
             text-align: left;
+
         }
 
        
@@ -198,11 +187,16 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
 
         }
 
-        .step image{
-        	display: block;
+        .step img{
+        	/*display: block;*/
+  			/*width: 100%;*/
+  			/*height: auto;*/
+  			display: block;
   			margin-left: auto;
   			margin-right: auto;
-  			width: 50%;
+  			width: 100%;
+  			padding-bottom:30px;
+  			
         }
 
         .step div {
@@ -222,9 +216,7 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
        
         }
 
-        .step img {
-            width: 100%;
-        }
+        
 
         @media (max-width: 750px) {
             #features {
@@ -280,14 +272,10 @@ splash.src = 'images/Splash-Screen.png';
 var arrow = document.createElement('img');
 arrow.src = 'gif-bounce-arrow.gif';
 
-var section02 = document.createElement("link");
-section02.type = "text/css";
-section02.rel = "stylesheet";
-section02.href = "style.css";
 
 
-//var link = document.createTextNode ("Scroll")
-//link.id = scroll;
+
+
 
 
 
@@ -313,10 +301,7 @@ if (config.byline) {
     header.appendChild(bylineText);
     header.appendChild(arrow);
 
-  	//header.appendChild(section02);
-  	//document.getElementsByTagName("head")[0].appendChild(scroll);
-  	//header.appendChild(link);
-
+  	
 }
 
 
@@ -336,8 +321,8 @@ config.chapters.forEach((record, idx) => {
         var image = new Image();  
         image.src = record.image;  
         chapter.appendChild(image);
-        document.write("<br>");
-        document.write("<br>");
+        
+        
 
     }
 
@@ -346,8 +331,8 @@ config.chapters.forEach((record, idx) => {
         var title = document.createElement('h3');
         title.innerText = record.title;
         chapter.appendChild(title);
-        document.write("<br>");
-        document.write("<br>");
+        
+        
     }
     
 
@@ -359,6 +344,7 @@ config.chapters.forEach((record, idx) => {
     }
 
     container.setAttribute('id', record.id);
+
     container.classList.add('step');
     if (idx === 0) {
         container.classList.add('active');
@@ -372,18 +358,29 @@ config.chapters.forEach((record, idx) => {
 story.appendChild(features);
 
 var footer = document.createElement('div');
+var social1 = document.createElement('img');
+social1.src = 'images/instagram.svg';
+var social2 = document.createElement('img');
+social2.src = 'images/twitter.svg';
 
 if (config.footer) {
     var footerText = document.createElement('p');
     footerText.innerHTML = config.footer;
     footer.appendChild(footerText);
+    footer.appendChild(social1);
+    footer.appendChild(social2);
+
+    
 }
 
 if (footer.innerText.length > 0) {
     footer.classList.add(config.theme);
     footer.setAttribute('id', 'footer');
     story.appendChild(footer);
+    
+
 }
+
 
 mapboxgl.accessToken = config.accessToken;
 
@@ -402,7 +399,7 @@ var map = new mapboxgl.Map({
     zoom: config.chapters[0].location.zoom,
     bearing: config.chapters[0].location.bearing,
     pitch: config.chapters[0].location.pitch,
-    scrollZoom: false,
+    scrollZoom: true,
     transformRequest: transformRequest
 });
 
@@ -438,7 +435,7 @@ map.on("load", function() {
         response.element.classList.remove('active');
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
-        }
+        }x
     });
 });
 
@@ -446,6 +443,12 @@ map.on("load", function() {
 window.addEventListener('resize', scroller.resize);
 
 </script>
+
+
+<!-- Badge Code - Do Not Change The Code -->
+<a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="17ec36e2e9fffc5511d9547601477051|8|ip|1|#ffffff|#0b0b0b|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+<!-- Badge Code End Here -->
+
 
 </body>
 </html>
