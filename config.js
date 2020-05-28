@@ -7,10 +7,10 @@ var config = {
     title: 'TAMING THE MOUNTAIN OF LIGHT',
     subtitle: 'The Incredible Journey of the Kohinoor Diamond',
     image: '',
-    byline: 'By <b>Sumil</b></a> and Nirja Desai',
+    byline: 'By Sumil and Nirja Desai',
 
   
-    footer: 'Research and text: <a class="hover-1" href="https://www.instagram.com/sumildesai/" target="_blank"><b>Sumil Desai</a></b>. Illustrator, desinger, producerk and developer: <a class="hover-1" href="https://twitter.com/nirja_desai?lang=en" target="_blan"><b>Nirja Desai</b><a>. <br> Kinda thanks to <a class="hover-1" href="https://github.com/devanshdesai" target="_blank"><b>Devansh Desai</b></a> <br> References: Dalrymple, William, and Anita Anand. <a class="hover-1" href="https://www.amazon.com/Koh-i-Noor-audiobook/dp/B072892L1T/ref=sr_1_5?dchild=1&keywords=kohinoor&qid=1590676261&sr=8-5" target="_blank"><b>Kohinoor</b></a>. Lokgeet Parkashan, 2018.',
+    footer: 'Research and text: <a class="hover-1" href="https://www.instagram.com/sumildesai/" target="_blank"><b>Sumil Desai</a></b>. Illustrator and designer: <a class="hover-1" href="https://twitter.com/nirja_desai?lang=en" target="_blan"><b>Nirja Desai</b><a>. <br> Kinda thanks to <a class="hover-1" href="https://github.com/devanshdesai" target="_blank"><b>Devansh Desai</b></a> <br> References: Dalrymple, William, and Anita Anand. <a class="hover-1" href="https://www.amazon.com/Koh-i-Noor-audiobook/dp/B072892L1T/ref=sr_1_5?dchild=1&keywords=kohinoor&qid=1590676261&sr=8-5" target="_blank"><b>Kohinoor</b></a>. Lokgeet Parkashan, 2018.',
     chapters: [
         {
             id: 'chapter_0',
@@ -49,10 +49,11 @@ var config = {
                  }
             ],
             onChapterExit: [
+                
                 {
-                    layer: 'delhi',
-                    opacity: 1
+                    
                 }
+
             ]
         },
         {
@@ -78,6 +79,10 @@ var config = {
         {
                     layer: 'delhi',
                     opacity: 0
+                },
+                 {
+                    layer: 'delhi-to-herat',
+                    opacity: 1
                 }
             ]
         },
@@ -94,16 +99,21 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-        {
+                {
                     layer: 'herat',
                      opacity: 1
-                 }
+                 },
+                 {
+                    layer: 'delhi-to-herat',
+                    opacity: 0
+                }
             ],
             onChapterExit: [
             {
                     layer: 'herat',
                      opacity: 0
                  }
+                
                  ]
         },
                         {
@@ -128,7 +138,11 @@ var config = {
             {
                     layer: 'kandahar',
                      opacity:0
-                 }
+                 },
+                  {
+                    layer: 'kandahar-to-lahore',
+                    opacity: 1
+                }
                  ]
         },
                         {
@@ -147,7 +161,11 @@ var config = {
             {
                     layer: 'lahore',
                      opacity: 1
-                 }
+                 },
+                  {
+                    layer: 'kandahar-to-lahore',
+                    opacity: 0
+                }
                  ],
             onChapterExit: [
             {
@@ -253,11 +271,11 @@ var config = {
             image: 'images/KohinoorExhibit.png',
             description: 'In the summer of <b>1851</b> the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for the <b>The Great Exhibition</b>. However the diamond appears dull and disappoints eager viewers.',
             location: {
-               center: { lon: -0.16412, lat: 51.50859 },
-                zoom: 12.93,
-                speed: .4,
-                pitch: 35.50,
-                bearing: -16.17
+               center: [-0.15297, 51.50544],
+                zoom: 13.98,
+                speed: .5,
+                pitch: 60.00,
+                bearing: 7.20
             },
             onChapterEnter: [
             {
