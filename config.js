@@ -83,7 +83,7 @@ var config = {
         },
                 {
             id: 'chapter_3',
-            title: 'HERAT <span>&#44;</span> AFGHANISTAN',
+            title: 'Herat, Afghanistan',
             image: 'images/Jezail.png',
             description: 'Nader Shah&#39;s descent into madness fuelled by paranoia for the Kohinoor begins with having his own son blinded. Nader Shah suspects his son of wanting to have him assassinated. In March 1747 Nader Shah&#39;s tyranny ends when he is murdered by his own guards. The kohinoor is captured by Ahmad Khan Abdali who takes the Kohinoor to Kandahar and establishes the kingdom of Afghanistan.',
             location: {
