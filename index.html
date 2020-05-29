@@ -203,7 +203,31 @@ a:hover {
 }
 
 
+ 
 
+
+.box{
+          text-align: center;
+          background-image: url("images/ep_naturalwhite1.png");
+          background-repeat: repeat;   
+          margin: auto;  
+          padding-bottom: 1vh;
+
+
+       }
+       
+
+
+
+.box img {
+          width: 20px;
+          margin-right: 20px;
+           display:inline-block;
+          margin-left: .5vh;
+          margin-right: .5vh;
+          
+
+}
 
 
 
@@ -246,7 +270,7 @@ a:hover {
             text-height:25px;
             font-size: 25px;
             font-color: #0e0e0e;
-            box-sizing: border-box;
+            /*box-sizing: border-box;*/
             background-color: #ffffff;
             /*background-blend-mode: multiply;*/
             background-image: url("images/ep_naturalwhite1.png");
@@ -267,7 +291,7 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
         	width: 100%;
             min-height: 3vh;
             padding-top: .5vh;
-            padding-bottom: 2vh;
+            padding-bottom: .2vh;
             text-align: center;
             line-height: 25px;
             font-size: 19px;
@@ -277,12 +301,6 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
 
         }
 
-        #footer img{
-        	width: 20px;
-        	margin-right: 10px;
-        	color: gray;
-
-        }
 
 
         #features {
@@ -524,6 +542,9 @@ story.appendChild(features);
 var footer = document.createElement('div');
 var social1 = document.createElement('img');
 social1.src = 'images/instagram.svg';
+
+
+
 var social2 = document.createElement('img');
 social2.src = 'images/twitter.svg';
 
@@ -531,8 +552,14 @@ if (config.footer) {
     var footerText = document.createElement('p');
     footerText.innerHTML = config.footer;
     footer.appendChild(footerText);
-    footer.appendChild(social1);
-    footer.appendChild(social2);
+
+    //footer.appendChild(social1);
+  
+
+
+    //footer.appendChild(social2);
+   
+
 
     
 }
@@ -609,9 +636,36 @@ window.addEventListener('resize', scroller.resize);
 </script>
 
 
-<!-- Badge Code - Do Not Change The Code
-<a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="17ec36e2e9fffc5511d9547601477051|8|ip|1|#ffffff|#0b0b0b|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+
+
+<div class="box">
+
+<a href="https://www.instagram.com/kalakar/" target="_blank">
+  <img src="images/instagram.svg"/>
+</a>
+
+<a href="https://twitter.com/nirja_desai?lang=en" target="_blank">
+  <img src="images/twitter.svg"/>
+</a>
+
+
+<a href="http://www.nirjadesai.com" target="_blank">
+  <img src="images/palette.svg"/>
+</a>
+
+
+<!-- Badge Code - Do Not Change The Code -->
+<a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="17ec36e2e9fffc5511d9547601477051|5|ip|1|#ffffff|#0b0b0b|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+Visits
 <!-- Badge Code End Here -->
+
+ 
+</div>
+
+
+
+
+
 
 
 </body>

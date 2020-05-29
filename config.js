@@ -10,7 +10,7 @@ var config = {
     byline: 'By Sumil and Nirja Desai',
 
   
-    footer: 'Research and text: <a class="hover-1" href="https://www.instagram.com/sumildesai/" target="_blank"><b>Sumil Desai</a></b>. Illustrator and designer: <a class="hover-1" href="https://twitter.com/nirja_desai?lang=en" target="_blan"><b>Nirja Desai</b><a>. <br> Special thanks to <a class="hover-1" href="https://github.com/devanshdesai" target="_blank"><b>Devansh Desai</b></a> <br> References: Dalrymple, William, and Anita Anand. <a class="hover-1" href="https://www.amazon.com/Koh-i-Noor-audiobook/dp/B072892L1T/ref=sr_1_5?dchild=1&keywords=kohinoor&qid=1590676261&sr=8-5" target="_blank"><b>Kohinoor</b></a>. Lokgeet Parkashan, 2018.',
+    footer: 'Research and text: <a class="hover-1" href="https://www.instagram.com/sumildesai/" target="_blank"><b>Sumil Desai</a></b>. Illustrator and designer: <a class="hover-1" href="https://twitter.com/nirja_desai?lang=en" target="_blank"><b>Nirja Desai</b><a>. <br> Special thanks to <a class="hover-1" href="https://github.com/devanshdesai" target="_blank"><b>Devansh Desai</b></a> <br> References: Dalrymple, William, and Anita Anand. <a class="hover-1" href="https://www.amazon.com/Koh-i-Noor-audiobook/dp/B072892L1T/ref=sr_1_5?dchild=1&keywords=kohinoor&qid=1590676261&sr=8-5" target="_blank"><b>Kohinoor</b></a>. Lokgeet Parkashan, 2018. <br> &copy; 2020',
     chapters: [
         {
             id: 'chapter_0',
