@@ -65,14 +65,9 @@ function myFunction() {
 }
 
 
- // Shine the header image
 
-setInterval(function () {
-    $('#my_button_div').addClass('shine');
-    setTimeout(function () {
-        $('#my_button_div').removeClass('shine');
-    }, 2000);
-}, 6000);
+
+
 
 </script>
 
@@ -210,20 +205,8 @@ a:hover {
 
 /* Shine the heander image */
 
-.header img[src="images/Splash-Screen.png"] {
-  
-  height: 200px;
-  width: 200px;
-  position: relative;
-  overflow: hidden;
-}
-.header img[src="images/Splash-Screen.png"] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
+
+
 .header img[src="images/Splash-Screen.png"]:before {
   content: "";
   z-index: 10;
@@ -269,7 +252,7 @@ a:hover {
   height: 8px;
   background: #b08157;
   width: 0%;
-   position: -webkit-sticky;
+  /* position: -webkit-sticky; */
   position: sticky;
   top: 0;
   position: fixed;
@@ -440,6 +423,9 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
 
 
 <script>
+
+
+
 var layerTypes = {
     'fill': ['fill-opacity'],
     'line': ['line-opacity'],
@@ -487,9 +473,6 @@ arrow.src = 'gif-bounce-arrow.gif';
 
 
 
-
-
-
 if (config.title) {
     var titleText = document.createElement('h1');
     titleText.innerText = config.title;
@@ -516,6 +499,14 @@ if (config.byline) {
 }
 
 
+// Shine the header image
+
+setInterval(function () {
+    $('#my_button_div').addClass('shine');
+    setTimeout(function () {
+        $('#my_button_div').removeClass('shine');
+    }, 2000);
+}, 6000);
 
 
 if (header.innerText.length > 0) {
