@@ -191,8 +191,7 @@ a:hover {
 
 
 
-
-/*#header img[src="images/Splash-Screen.png"] {
+#header img[src="images/Splash-Screen.gif"] {
   			display: block;
   			margin-left: auto;
   			margin-right: auto;
@@ -200,44 +199,13 @@ a:hover {
   			height: auto;
   			padding-bottom:5px; 
   			margin-top: 0px;
-}*/
-
-
-/* Shine the heander image */
-
-
-
-.header img[src="images/Splash-Screen.png"]:before {
-  content: "";
-  z-index: 10;
-  position: absolute;
-  height: 200%;
-  width: 200%;
-  top: -120%;
-  left: -120%;
-  background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 55%, transparent 100%);
-  transition: all 2s;
-  transform: rotate(-45deg);
-  animation: shine 6s infinite forwards;
+        mix-blend-mode: multiply;
 }
-@keyframes shine {
-  0% {
-    top: -120%;
-    left: -120%;
-  }
-  20% {
-    left: 100%;
-    top: 100%;
-  }
-  40% {
-    left: 100%;
-    top: 100%;
-  }
-  100% {
-    left: 100%;
-    top: 100%;
-  }
-}
+
+
+
+
+
 
 /* The progress container (grey background) */
 .progress-container {
@@ -463,7 +431,7 @@ features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
 var splash = document.createElement('img');
-splash.src = 'images/Splash-Screen.png';
+splash.src = 'images/Splash-Screen.gif';
 
 var arrow = document.createElement('img');
 arrow.src = 'gif-bounce-arrow.gif';
@@ -499,14 +467,6 @@ if (config.byline) {
 }
 
 
-// Shine the header image
-
-setInterval(function () {
-    $('#my_button_div').addClass('shine');
-    setTimeout(function () {
-        $('#my_button_div').removeClass('shine');
-    }, 2000);
-}, 6000);
 
 
 if (header.innerText.length > 0) {
