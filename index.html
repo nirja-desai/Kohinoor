@@ -153,7 +153,7 @@ a:hover {
             width:100vw;
             position: fixed;
             z-index: -5;
-            overflow: scroll;
+            /*overflow: scroll;
         }
         
 #hitCounter {
@@ -643,16 +643,16 @@ map.on("load", function() {
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
         }
-        if (chapter.onChapterEnter.length > 0) {
+        if (chapter.id !== "chapter_0" && chapter.onChapterEnter.length > 0) {
             chapter.onChapterEnter.forEach(setLayerOpacity);
         }
     })
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
-        if (chapter.onChapterExit.length > 0) {
+        if (chapter.id !== "chapter_0" && chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
-        }x
+        }
     });
 });
 
