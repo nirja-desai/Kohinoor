@@ -7,21 +7,21 @@
       <meta name="description" content="Follow the incredible journey of the Kohinoor Diamond.">
       <!-- Open Graph / Facebook -->
       <meta property="og:type" content="website">
-      <meta property="og:url" content="https://nirja-desai.github.io/Koh-i-noor/">
+      <meta property="og:url" content="https://nirja-desai.github.io/Kohinoor/">
       <meta property="og:title" content="Taming the Mountain of Light">
       <meta property="og:description" content="Follow the incredible journey of the Kohinoor Diamond.">
-      <meta property="og:image" content="https://raw.githubusercontent.com/nirja-desai/Koh-i-noor/master/images/KohinoorTwitter.png">
+      <meta property="og:image" content="https://raw.githubusercontent.com/nirja-desai/Kohinoor/master/images/KohinoorTwitter.png">
       <!-- Twitter -->
       <meta property="twitter:card" content="summary_large_image">
-      <meta property="twitter:url" content="https://nirja-desai.github.io/Koh-i-noor/">
+      <meta property="twitter:url" content="https://nirja-desai.github.io/Kohinoor/">
       <meta property="twitter:title" content="Taming the Mountain of Light">
       <meta property="twitter:description" content="Follow the incredible journey of the Kohinoor Diamond.">
-      <meta property="twitter:image" content="https://raw.githubusercontent.com/nirja-desai/Koh-i-noor/master/images/KohinoorTwitter.png">
-      <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/nirja-desai/Koh-i-noor/master/diamondCopy1.png">
+      <meta property="twitter:image" content="https://raw.githubusercontent.com/nirja-desai/Kohinoor/master/images/KohinoorTwitter.png">
+      <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/nirja-desai/Kohinoor/master/diamondCopy1.png">
       <meta charset='utf-8' />
-      <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/nirja-desai/Koh-i-noor/master/diamondCopy1.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/nirja-desai/Koh-i-noor/master/diamondCopy1.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/nirja-desai/Koh-i-noor/master/diamondCopy1.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/nirja-desai/Kohinoor/master/diamondCopy1.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/nirja-desai/Kohinoor/master/diamondCopy1.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/nirja-desai/Kohinoor/master/diamondCopy1.png">
       <link rel="manifest" href="/site.webmanifest">
       <title>The Incredible Journey of the Kohinoor </title>
       <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
@@ -52,6 +52,57 @@
       </script>
       <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
       <style>
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
           body {
             margin: 0;
             padding: 0;
@@ -87,6 +138,7 @@
             color: a48c31;
             background-color: transparent;
             text-decoration: none;
+            font-weight:700;
           }
 
           a:visited {
@@ -125,37 +177,52 @@
             width: 100vw;
             position: fixed;
             z-index: -5;
-            /*overflow: scroll;
-                   }
-                   #hitCounter {
-                   width: 100%;
-                   min-height: 90vh;
-                   padding-top: 2vh;
-                   padding-bottom: 2vh;
-                   text-align: center;
-                   line-height: 25px;
-                   font-size: 13px;
-                   }
-                   .step h3 {
-                   margin-block-start: 20px;
-                   margin-block-end: 20px;
-                   margin-inline-start: 0px;
-                   margin-inline-end: 0px;
-                   }
-                   #header h1 {
-                   /*margin-bottom: 1vh; */
-            
+            /*overflow: scroll;*/
             font-family: 'PT Sans Narrow', sans-serif;
           }
+
+
+                    /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  #header p {
+    font-size: 22px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #header p {
+    font-size: 18px;
+  }
+}
           #header p {
             margin-bottom: 2vh;
             font-family: 'PT Sans Narrow', sans-serif;
-            font-size: 22px;
+            /*font-size: 22px;*/
           }
+
+          /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  #header h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #header h3 {
+    font-size: 18px;
+    padding-bottom: 15px;
+
+  }
+}
           #header h3 {
             margin-bottom: 1vh;
             font-style: italic;
-            font-size: 21px;
+            font-weight:400;
+            /*font-size: 1vw;*/
           }
           #header img[src="images/Splash-Screen.gif"] {
             padding-top: 8px;
@@ -166,6 +233,7 @@
             height: auto;
             padding-bottom: 5px;
             mix-blend-mode: multiply;
+            overflow: scroll;
           }
           .box {
             text-align: center;
@@ -201,21 +269,39 @@
           .content {
             padding: 10px;
           }
+          
+ /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  #header h1 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #header h1 {
+    font-size: 25px;
+    font-weight:700;
+    padding-bottom: 7px;
+  }
+}
+
+
           #header {
             /*width: 100%;*/
-            /* height: 100vh; */
+            height: 100vh; 
             
             padding-top: 2vh;
             padding-bottom: 0vh;
             text-align: center;
             text-height: 25px;
-            font-size: 24px;
+            /*font-size: 2vw;*/
             font-color: #0e0e0e;
             /*box-sizing: border-box;*/
-            
             background-color: #ffffff;
             /*background-blend-mode: multiply;*/
-            
             background-image: url("images/ep_naturalwhite1.png");
             background-repeat: repeat;
             /*-webkit-overflow-scrolling:touch;*/
@@ -225,8 +311,8 @@
           #footer {
             width: 100%;
             min-height: 3vh;
-            padding-top: .5vh;
-            padding-bottom: .2vh;
+            padding-top: 16px;
+            padding-bottom: 16px;
             text-align: center;
             line-height: 25px;
             font-size: 19px;
@@ -278,21 +364,58 @@
             margin-left: auto;
             margin-right: auto;
             max-width: 80%;
-            padding-bottom: 0vh;
+            padding-bottom: 2vh;
           }
+
+
+                    /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+ .step h3 {
+    font-size: 28px;
+    line-height: 28px;
+    padding-bottom: 8px;
+    font-weight: 700;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .step h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 6px;
+  }
+}
           .h3 {
             margin-block-start: 20px;
-            margin-block-end: 20px;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
+            margin-block-end: 5px;
+            margin-inline-start: 5px;
+            margin-inline-end: 50px;
           }
+
+          /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+ .step p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .step p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
           .step p {
             padding-top: 0px;
           }
           .step div {
             padding: 25px 25px;
             line-height: 29px;
-            font-size: 21px;
+            /*font-size: 21px;*/
             font-family: 'PT Sans Narrow', sans-serif;
             opacity: 1;
             border: 25px solid #B88846;
@@ -553,10 +676,7 @@
          <a href="http://www.nirjadesai.com" target="_blank">
          <img src="images/palette.svg"/>
          </a>
-         <!-- Badge Code - Do Not Change The Code -->
-         <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="17ec36e2e9fffc5511d9547601477051|5|ip|1|#ffffff|#0b0b0b|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-         Visits
-         <!-- Badge Code End Here -->
+         
       </div>
    </body>
 </html>
