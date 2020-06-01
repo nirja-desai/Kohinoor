@@ -60,7 +60,7 @@
   gtag('config', 'UA-168140342-1');
 </script>
 
-      
+
       <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
       <style>
 
@@ -187,7 +187,7 @@ table {
             width: 100vw;
             position: fixed;
             z-index: -5;
-            /*overflow: scroll;*/
+            
             font-family: 'PT Sans Narrow', sans-serif;
           }
 
@@ -243,7 +243,6 @@ table {
             height: auto;
             padding-bottom: 10px;
             mix-blend-mode: multiply;
-            overflow: scroll;
 
           }
           #header img[src="gif-bounce-arrow.gif"] {
@@ -327,7 +326,7 @@ table {
             /*background-blend-mode: multiply;*/
             background-image: url("images/ep_naturalwhite1.png");
             background-repeat: repeat;
-            overflow: scroll;
+            
             /* border: 25px solid #B88846;
                    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25; */
           }
@@ -373,12 +372,26 @@ table {
             margin-bottom: 2vh;
             opacity: 1;
             text-align: left;
-            overflow: scroll;
+            
           }
           .step.active {
             opacity: 1;
             text-align: left;
           }
+
+          /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .step img {
+  max-width: 50vh;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .step img {
+    max-width: 10vh;
+  }
+}
           .step img {
             /*display: block;*/
             /*width: 100%;*/
@@ -387,7 +400,7 @@ table {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            max-width: 80%;
+            /*max-width: 80%;*/
             padding-bottom: 2vh;
           }
 
@@ -446,7 +459,7 @@ table {
             background-image: url("images/ep_naturalwhite1.png");
             background-repeat: repeat;
             border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
-            overflow: scroll;
+            
           }
 
           }
