@@ -8,7 +8,7 @@ var config = {
    "subtitle": "The Incredible Journey of the Kohinoor Diamond",
    "image": "",
    "byline": "By Sumil and Nirja Desai",
-   "footer": "Research and text: <a class=\"hover-1\" href=\"https://www.instagram.com/sumildesai/\" target=\"_blank\"><b>Sumil Desai<\/a><\/b>. Illustrator and designer: <a class=\"hover-1\" href=\"https://twitter.com/nirja_desai?lang=en\" target=\"_blank\"><b>Nirja Desai<\/b><a>. <br> Special thanks to <a class=\"hover-1\" href=\"https://github.com/devanshdesai\" target=\"_blank\"><b>Devansh Desai<\/b><\/a> <br> Reference: Dalrymple, William, and Anita Anand. <a class=\"hover-1\" href=\"https://www.amazon.com/Koh-i-Noor-History-Worlds-Infamous-Diamond/dp/163557076X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1590676261&sr=8-5\" target=\"_blank\"><b>Koh-i-Noor: The History of the World's Most Infamous Diamond<\/b><\/a>. London, Bloomsbury, . ©017, 2017. <br> &copy; 2020",
+   "footer": "Research and text: <a class=\"hover-1\" href=\"https://www.instagram.com/sumildesai/\" target=\"_blank\"><b>Sumil Desai<\/a><\/b>. Illustrator and designer: <a class=\"hover-1\" href=\"https://twitter.com/nirja_desai?lang=en\" target=\"_blank\"><b>Nirja Desai<\/b><a>. <br> Special thanks to <a class=\"hover-1\" href=\"https://github.com/devanshdesai\" target=\"_blank\"><b>Devansh Desai<\/b><\/a> <br> Reference: Dalrymple, William, and Anita Anand. <a class=\"hover-1\" href=\"http://www.williamdalrymple.uk.com/books/kohinoor-the-story-of-the-worlds-most-infamous-diamond\" target=\"_blank\"><b>Koh-i-Noor: The History of the World's Most Infamous Diamond<\/b><\/a>. London, Bloomsbury, 2017. <br> &copy; 2020",
    "chapters": [
       {
          "id": "chapter_0",
