@@ -12,7 +12,7 @@ var config = {
    "chapters": [
       {
          "id": "chapter_0",
-         "title": "The beginnings",
+         "title": "THE BEGINNINGS",
          "alignment": "center",
          "description": "With its storied beginnings as the <b>Syamantak Mani</b> of the Bhagwad Puran, the Kohinoor has a violent and murky history. Possibly mined from Kollur in modern day Andhra Pradesh, this fabled diamond was taken into the Delhi sultanate when Alauddin Khilji defeated the Kakatiyas of southern India in the early 1300s. From there it is said to have been presented to <b>Babur<\/b> after his conquest of the Delhi Sultanate in <b>1526<\/b> and thus it came into the possession of the Mughals. We pick up the trail with the first official record of its sighting.",
          "location": {
@@ -28,7 +28,7 @@ var config = {
       },
       {
          "id": "chapter_1",
-         "title": "Delhi, India",
+         "title": "DELHI, INDIA",
          "image": "images/PeacockThrone1.png",
          "description": "Now Ruz <b>1635</b> - Seven years after it was commissioned by Mughal emperor Shah Jahan, the magnificent <b>Peacock Throne<\/b> is inaugurated. The throne was studded with rubies, emeralds, pearls, diamonds and precious stones of every kind, reportedly worth <b>Rs.10,000,000<\/b> of that time. The Kohinoor was set in one of the peacock&#39;s eyes.",
          "location": {
@@ -80,7 +80,7 @@ var config = {
       },
       {
          "id": "chapter_3",
-         "title": "Herat, Afghanistan",
+         "title": "HERAT, AFGHANISTAN",
          "image": "images/Jezail1.png",
          "description": "Nader Shah&#39;s descent into madness fuelled by paranoia for the Kohinoor begins with having his own son blinded. Nader Shah suspects his son of wanting to have him assassinated. In <b>March 1747<\/b> Nader Shah&#39;s tyranny ends when he is murdered by his own guards. The kohinoor is captured by <b>Ahmad Khan Abdali<\/b> who takes the Kohinoor to Kandahar and establishes the kingdom of Afghanistan.",
          "location": {
@@ -108,7 +108,7 @@ var config = {
       },
       {
          "id": "chapter_4",
-         "title": "Kandhar, Afghanistan",
+         "title": "KANDAHAR, AFGHANISTAN",
          "image": "images/KohinoorPaper1.png",
          "description": "Winter of <b>1800<\/b> - <b>Shah Zaman<\/b> (descendant of Abdali) is imprisoned and deposed amidst political upheaval. He hides the Kohinoor in a crack in the wall of his prison cell. In <b>1803<\/b> Shah Zaman&#39;s brother <b>Shah Shuja<\/b> comes to power and sends his men looking for the Kohinoor who find it with a mullah using it as a paperweight!",
          "location": {
@@ -136,7 +136,7 @@ var config = {
       },
       {
          "id": "chapter_5",
-         "title": "Lahore, Pakistan",
+         "title": "LAHORE, PAKISTAN",
          "image": "images/Shah_Suja1.png",
          "description": "However Shah Shuja is unable to hold on to the throne of Afghanistan and in <b>1810<\/b> is forced to escape to Lahore, Punjab - the dominion of <b>Maharaja Ranjit Singh<\/b>. The Shah leaves the kohinoor with his wife Wa’fa Begum in Lahore. In <b>June 1813<\/b>, Ranjit Singh finally obtains the Kohinoor.",
          "location": {
@@ -192,7 +192,7 @@ var config = {
       },
       {
          "id": "chapter_7",
-         "title": "Enroute to London",
+         "title": "ENROUTE TO LONDON",
          "image": "images/Ship1.png",
          "description": "In <b>1850<\/b>, the Kohinoor sets sail via ship from Bombay to England. But soon after cholera is discovered onboard the ship. Mauritius refuses to let the crew disembark and threatens to sink the ship along with crew and cargo. The ship manages to continue on its journey, only to run into a storm and is tossed for 12 hours.",
          "location": {
@@ -228,7 +228,7 @@ var config = {
       },
       {
          "id": "chapter_9",
-         "title": "Portsmouth, England",
+         "title": "PORTSMOUTH, ENGLAND",
          "image": "images/QueenVictoria1.png",
          "description": "In June, a skeleton crew limps into Portsmouth harbor. Meanwhile, an unnamed assailant strikes <b>Queen Victoria<\/b> with an iron rod and former PM Robert Peel is thrown from his horse and dies. The queen receives the diamond in mourning (and with a black eye).",
          "location": {
@@ -256,9 +256,9 @@ var config = {
       },
       {
          "id": "chapter_10",
-         "title": "Hyde Park, London",
+         "title": "HYDE PARK, LONDON",
          "image": "images/KohinoorExhibit1.png",
-         "description": "In the summer of <b>1851</b> the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for the 'The Great Exhibition'. However the diamond appears dull and disappoints eager viewers. The diamond is recut to release the ‘fire’ at its heart. The Duke of Wellington is called upon to make the inaugural cut on the diamond. He dies in eight weeks due to a stroke, before the recutting is complete.",
+         "description": "In the summer of <b>1851</b> the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for <b>The Great Exhibition </b>. However the diamond appears dull and disappoints eager viewers. The diamond is recut to release the ‘fire’ at its heart. The Duke of Wellington is called upon to make the inaugural cut on the diamond. He dies in eight weeks due to a stroke, before the recutting is complete.",
          "location": {
             "center": [
                -0.15297,
@@ -284,7 +284,7 @@ var config = {
       },
       {
          "id": "chapter_11",
-         "title": "Tower of London",
+         "title": "TOWER OF LONDON",
          "image": "images/KohinoorCrown1.png",
          "description": "In <b>1852</b> the diamond is recut from its original <b>186 carats</b> to just <b>105 carats</b> and worn by Queen Victoria in her crown. The Kohinoor becomes the literal \"jewel in the crown\" for the British and resides in the tower of London, <i>for now</i>.",
          "location": {
