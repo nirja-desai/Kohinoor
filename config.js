@@ -14,7 +14,7 @@ var config = {
          "id": "chapter_0",
          "title": "The beginnings",
          "alignment": "center",
-         "description": "With its storied beginnings as the <b>Syamantak Mani<\/b> of the Bhagwad Puran, the Kohinoor has a violent and murky history. Possibly mined from Kollur in modern day Andhra Pradesh, this fabled diamond was taken into the Delhi sultanate when Alauddin Khilji defeated the Kakatiyas of southern India in the early 1300s. From there it is said to have been presented to <b>Babur<\/b> after his conquest of the Delhi Sultanate in <b>1526<\/b> and thus it came into the possession of the Mughals. We pick up the trail with the first official record of its sighting.",
+         "description": "With its storied beginnings as the <b>Syamantak Mani</b> of the Bhagwad Puran, the Kohinoor has a violent and murky history. Possibly mined from Kollur in modern day Andhra Pradesh, this fabled diamond was taken into the Delhi sultanate when Alauddin Khilji defeated the Kakatiyas of southern India in the early 1300s. From there it is said to have been presented to <b>Babur<\/b> after his conquest of the Delhi Sultanate in <b>1526<\/b> and thus it came into the possession of the Mughals. We pick up the trail with the first official record of its sighting.",
          "location": {
             "center": {
                "lon": 91.53712,
@@ -30,7 +30,7 @@ var config = {
          "id": "chapter_1",
          "title": "Delhi, India",
          "image": "images/PeacockThrone1.png",
-         "description": "Now Ruz <b>1635<\/b> - Seven years after it was commissioned by Mughal emperor Shah Jahan, the magnificent <b>Peacock Throne<\/b> is inaugurated. The throne was studded with rubies, emeralds, pearls, diamonds and precious stones of every kind, reportedly worth <b>Rs.10,000,000<\/b> of that time. The Kohinoor was set in one of the peacock&#39;s eyes.",
+         "description": "Now Ruz <b>1635</b> - Seven years after it was commissioned by Mughal emperor Shah Jahan, the magnificent <b>Peacock Throne<\/b> is inaugurated. The throne was studded with rubies, emeralds, pearls, diamonds and precious stones of every kind, reportedly worth <b>Rs.10,000,000<\/b> of that time. The Kohinoor was set in one of the peacock&#39;s eyes.",
          "location": {
             "center": {
                "lon": 79.42901,
@@ -54,7 +54,7 @@ var config = {
          "title": " ",
          "image": "images/NaderShah1.png",
          "alignment": "center",
-         "description": "On <b>May 16, 1739<\/b> - after 57 days of murder, loot, and pillage - <b>Nader Shah <\/b> (the Persian invader) leaves Delhi for Herat with untold wealth (as much as the modern day equivalent of £9 billion by some accounts), also taking with him the Kohinoor. ",
+         "description": "On <b>May 16, 1739</b> - after 57 days of murder, loot, and pillage - <b>Nader Shah <\/b> (the Persian invader) leaves Delhi for Herat with untold wealth (as much as the modern day equivalent of £9 billion by some accounts), also taking with him the Kohinoor. ",
          "location": {
             "center": {
                "lon": 79.42901,
