@@ -258,7 +258,7 @@ var config = {
          "id": "chapter_10",
          "title": "HYDE PARK, LONDON",
          "image": "images/KohinoorExhibit1.png",
-         "description": "In the summer of <b>1851</b> the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for <b>The Great Exhibition </b>. However the diamond appears dull and disappoints eager viewers. The diamond is recut to release the ‘fire’ at its heart. The Duke of Wellington is called upon to make the inaugural cut on the diamond. He dies in eight weeks due to a stroke, before the recutting is complete.",
+         "description": "In the summer of <b>1851</b> the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for <b>The Great Exhibition</b>. However the diamond appears dull and disappoints eager viewers. The diamond is recut to release the ‘fire’ at its heart. The Duke of Wellington is called upon to make the inaugural cut on the diamond. He dies in eight weeks due to a stroke, before the recutting is complete.",
          "location": {
             "center": [
                -0.15297,
