@@ -286,7 +286,7 @@ var config = {
          "id": "chapter_11",
          "title": "Tower of London",
          "image": "images/KohinoorCrown1.png",
-         "description": "In <b>1852<\/b> the diamond is recut from its original <b>186 carats<\/b> to just <b>105 carats<\/b> and worn by Queen Victoria in her crown. The Kohinoor becomes the literal \"jewel in the crown\" for the British and resides in the tower of London, <i>for now<\/i>.",
+         "description": "In <b>1852</b> the diamond is recut from its original <b>186 carats</b> to just <b>105 carats</b> and worn by Queen Victoria in her crown. The Kohinoor becomes the literal \"jewel in the crown\" for the British and resides in the tower of London, <i>for now</i>.",
          "location": {
             "center": {
                "lon": -0.07433,
