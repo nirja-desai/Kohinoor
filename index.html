@@ -382,26 +382,27 @@ table {
           /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
   .step img {
-  max-width: 50vh;
+  max-width: 30vh;
   }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   .step img {
-    max-width: 10vh;
+    max-width: 50%;
   }
 }
           .step img {
-            /*display: block;*/
-            /*width: 100%;*/
-            /*height: auto;*/
+            display: block;
+            width: 100%;
+            height: auto;
             
             display: block;
             margin-left: auto;
             margin-right: auto;
             /*max-width: 80%;*/
             padding-bottom: 2vh;
+            padding-top:1vh;
           }
 
 
@@ -701,6 +702,16 @@ table {
          
          // setup resize event
          window.addEventListener('resize', scroller.resize);
+
+    $(window).resize(function() {
+  if ($(window).width() > 600) {
+    $("#features").toggleClass("righty", true);
+    $("#features").toggleClass("center", false);
+  } else {
+    $("#features").toggleClass("center", true);
+    $("#features").toggleClass("righty", false);
+  }
+});
          
       </script>
       <div class="box">
