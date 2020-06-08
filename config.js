@@ -261,13 +261,13 @@ var config = {
          "description": "In the summer of <b>1851</b> the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for <b>The Great Exhibition</b>. However the diamond appears dull and disappoints eager viewers. The diamond is recut to release the ‘fire’ at its heart. The Duke of Wellington is called upon to make the inaugural cut on the diamond. He dies in eight weeks due to a stroke, before the recutting is complete.",
          "location": {
             "center": [
-               -0.16346,
-               51.50876
+               -0.16380,
+               51.50993
             ],
-            "zoom": 11.96,
+            "zoom": 13.31,
             "speed": 0.5,
             "pitch": 54.00,
-            "bearing": -28.80
+            "bearing": -13.64
          },
          "onChapterEnter": [
             {
