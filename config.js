@@ -17,10 +17,10 @@ var config = {
          "description": "With its storied beginnings as the <b>Syamantak Mani</b> of the Bhagwad Puran, the Kohinoor has a violent and murky history. Possibly mined from Kollur in modern day Andhra Pradesh, this fabled diamond was taken into the Delhi sultanate when Alauddin Khilji defeated the Kakatiyas of southern India in the early 1300s. From there it is said to have been presented to <b>Babur<\/b> after his conquest of the Delhi Sultanate in <b>1526<\/b> and thus it came into the possession of the Mughals. We pick up the trail with the first official record of its sighting.",
          "location": {
             "center": {
-               "lon": 77.35084,
-               "lat": 29.18463 
+               "lon": 75.81537,
+               "lat": 31.16460
             },
-            "zoom": 2.58,
+            "zoom": 2.66,
             "speed": 0.4,
             "pitch": 0,
             "bearing": 0
@@ -85,13 +85,13 @@ var config = {
          "description": "Nader Shah&#39;s descent into madness fuelled by paranoia for the Kohinoor begins with having his own son blinded. Nader Shah suspects his son of wanting to have him assassinated. In <b>March 1747<\/b> Nader Shah&#39;s tyranny ends when he is murdered by his own guards. The kohinoor is captured by <b>Ahmad Khan Abdali<\/b> who takes the Kohinoor to Kandahar and establishes the kingdom of Afghanistan.",
          "location": {
             "center": {
-               "lon": 62.20587, 
-               "lat": 34.87312
+               "lon": 62.28745, 
+               "lat": 34.30810
             },
-            "zoom": 7.21,
+            "zoom": 5.64,
             "speed": 0.4,
             "pitch": 38.00,
-            "bearing": -0.00
+            "bearing": 23.20
          },
          "onChapterEnter": [
             {
@@ -113,13 +113,13 @@ var config = {
          "description": "Winter of <b>1800<\/b> - <b>Shah Zaman<\/b> (descendant of Abdali) is imprisoned and deposed amidst political upheaval. He hides the Kohinoor in a crack in the wall of his prison cell. In <b>1803<\/b> Shah Zaman&#39;s brother <b>Shah Shuja<\/b> comes to power and sends his men looking for the Kohinoor who find it with a mullah using it as a paperweight!",
          "location": {
             "center": {
-               "lon": 65.82483,
-               "lat": 31.60724
+               "lon": 65.86989,
+               "lat": 31.55375
             },
-            "zoom": 7.21,
+            "zoom": 6.51,
             "speed": 0.4,
             "pitch": 57.50,
-            "bearing": -1.67
+            "bearing":  23.20
          },
          "onChapterEnter": [
             {
@@ -141,13 +141,13 @@ var config = {
          "description": "However Shah Shuja is unable to hold on to the throne of Afghanistan and in <b>1810<\/b> is forced to escape to Lahore, Punjab - the dominion of <b>Maharaja Ranjit Singh<\/b>. The Shah leaves the kohinoor with his wife Wa’fa Begum in Lahore. In <b>June 1813<\/b>, Ranjit Singh finally obtains the Kohinoor.",
          "location": {
             "center": {
-               "lon": 74.36892,
-               "lat": 32.69347
+               "lon": 74.41059,
+               "lat": 31.53549 
             },
-            "zoom": 6.79,
+            "zoom": 8.29,
             "speed": 0.4,
             "pitch": 60.00,
-            "bearing":  -0.06
+            "bearing":  23.20
          },
          "onChapterEnter": [
             {
@@ -169,13 +169,13 @@ var config = {
          "description": "After bloody coups and counter-coups the diamond is ultimately being worn by the child emperor <b>Duleep Singh<\/b> when war breaks out with the British. Following their victory in <b>March 1849<\/b>, under the Treaty of Lahore, the British annex Punjab and the Kohinoor along with it.",
          "location": {
             "center": {
-                "lon": 74.36892,
-               "lat": 32.69347
+                "lon": 74.41059,
+               "lat": 31.53549 
             },
-            "zoom": 6.79,
+            "zoom": 8.29,
             "speed": 0.4,
             "pitch": 60.00,
-            "bearing":  -0.06
+            "bearing":  23.20
          },
          "onChapterEnter": [
             {
@@ -197,12 +197,12 @@ var config = {
          "description": "In <b>1850<\/b>, the Kohinoor sets sail via ship from Bombay to England. But soon after cholera is discovered onboard the ship. Mauritius refuses to let the crew disembark and threatens to sink the ship along with crew and cargo. The ship manages to continue on its journey, only to run into a storm and is tossed for 12 hours.",
          "location": {
             "center": {
-               "lon": 47.31659,
-               "lat": 15.46233
+               "lon": 40.99859,
+               "lat": 22.31808
             },
-            "zoom": 1.31,
+            "zoom": 1.33,
             "speed": 0.7,
-            "pitch": 1.00,
+            "pitch": 0,
             "bearing": 0
          },
          "onChapterEnter": [
@@ -233,13 +233,13 @@ var config = {
          "description": "In June, a skeleton crew limps into Portsmouth harbor. Meanwhile, an unnamed assailant strikes <b>Queen Victoria<\/b> with an iron rod and former PM Robert Peel is thrown from his horse and dies. The queen receives the diamond in mourning (and with a black eye).",
          "location": {
             "center": {
-               "lon": -0.44203,
-               "lat": 51.99122
+               "lon": -1.07174,
+               "lat": 50.84650 
             },
-            "zoom": 6.36,
+            "zoom": 9.45,
             "speed": 0.5,
             "pitch": 60.00,
-            "bearing": 19.20
+            "bearing": 23.20
          },
          "onChapterEnter": [
             {
@@ -261,13 +261,13 @@ var config = {
          "description": "In the summer of <b>1851</b> the diamond is displayed in the specially constructed Crystal Palace in Hyde Park for <b>The Great Exhibition</b>. However the diamond appears dull and disappoints eager viewers. The diamond is recut to release the ‘fire’ at its heart. The Duke of Wellington is called upon to make the inaugural cut on the diamond. He dies in eight weeks due to a stroke, before the recutting is complete.",
          "location": {
             "center": [
-               -0.16759,
-               51.53374
+               -0.16346,
+               51.50876
             ],
             "zoom": 11.96,
             "speed": 0.5,
-            "pitch": 60,
-            "bearing": 0
+            "pitch": 54.00,
+            "bearing": -28.80
          },
          "onChapterEnter": [
             {
@@ -289,13 +289,13 @@ var config = {
          "description": "In <b>1852</b> the diamond is recut from its original <b>186 carats</b> to just <b>105 carats</b> and worn by Queen Victoria in her crown. The Kohinoor becomes the literal \"jewel in the crown\" for the British and resides in the tower of London, <i>for now</i>.",
          "location": {
             "center": {
-               "lon":  -0.07747,
-               "lat": 51.50929
+               "lon":  -0.07593,
+               "lat": 51.50803
             },
-            "zoom": 15.96,
+            "zoom": 16.33,
             "speed": 0.4,
-            "pitch": 60,
-            "bearing": -32.80
+            "pitch": 54.00,
+            "bearing": -28.80
          },
          "onChapterEnter": [
             {
